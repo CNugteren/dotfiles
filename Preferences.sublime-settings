@@ -1,0 +1,25 @@
+// CNugteren's Preferences.sublime-settings
+// Copy to ~/.config/sublime-text-3/Packages/User/
+// https://github.com/CNugteren/dotfiles
+// =======================================
+
+{
+	"added_words":
+	[
+		"behaviour",
+		"optimisation",
+		"const",
+		"programmatically"
+	],
+	"draw_white_space": "all",
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rulers":
+	[
+		100
+	],
+	"tab_size": 2
+}
