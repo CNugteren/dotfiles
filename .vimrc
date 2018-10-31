@@ -33,6 +33,19 @@ set shiftwidth=2
 autocmd Filetype python setlocal softtabstop=4 shiftwidth=4 colorcolumn=120 expandtab
 autocmd Filetype cpp    setlocal softtabstop=2 shiftwidth=2 colorcolumn=120 expandtab
 
+" Keymapping
+"=======================================
+
+" F1: Switch line numbering
+noremap <F1> :set number!<cr>:set number?<cr>
+
+" F2: Switch relative line numbering
+noremap <F2> :set relativenumber!<cr>:set relativenumber?<cr>
+
+" Disable ZZ and ZQ, they are dangerous
+nnoremap ZZ <nop>
+nnoremap ZQ <nop>
+
 " Searching
 "=======================================
 
@@ -50,3 +63,4 @@ set background=dark     " Dark background color
 "=======================================
 
 set number              " Show line numbers
+set relativenumber      " Show relative line numbers
